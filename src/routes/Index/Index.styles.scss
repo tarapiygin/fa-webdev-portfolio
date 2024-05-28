@@ -1,0 +1,56 @@
+.first-screen-image {
+  max-width: 80%;
+}
+
+.social-media-container {
+  max-width: 40%;
+  margin: auto;
+}
+
+.social-image {
+  max-width: 35px;
+}
+
+.first-screen-text-border {
+  margin-bottom: 1rem;
+  border-bottom: 1px dashed var(--night-rider);
+}
+
+.text-about {
+  background-color: var(--tea-green);
+  border-top: 2px solid var(--night-rider);
+  border-bottom: 2px solid var(--night-rider);
+}
+
+.first-screen-container {
+  margin-bottom: 17.3531vh;
+}
+
+// @media screen and (max-width: 991px) {
+//   .first-screen-container {
+
+//   }
+// }
+
+
+@media screen and (max-width: 768px) {
+  .first-screen-container {
+    margin-bottom: 8vh;
+  }
+
+  .first-screen-image {
+    max-width: 25vw;
+    min-width: 200px;
+  }
+
+  .first-screen-text-container {
+    max-width: 400px;
+  }
+
+  .first-screen-text-border {
+    border: none;
+  }
+}
+
+@media screen and (max-width: 479px) {
+}

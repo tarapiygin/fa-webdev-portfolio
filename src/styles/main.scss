@@ -1,0 +1,29 @@
+:root {
+  --night-rider: #332e2e;
+  --seashell: #fff7f3;
+  --tea-green: #d9ffb6;
+  --pig-pink: #ffd3f3;
+  --clear-day: #e3fff8;
+  --body: "Atkinson Hyperlegible", sans-serif;
+  --titles: Inter, sans-serif;
+  --body-size: 1rem;
+}
+
+.body {
+  background-color: var(--seashell);
+}
+
+.base-text, p {
+  letter-spacing: .02rem;
+  font-family: Atkinson Hyperlegible, sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 3.5rem;
+  letter-spacing: .2rem;
+  line-height: 3.6rem;
+  font-family: Atkinson Hyperlegible, sans-serif;
+}

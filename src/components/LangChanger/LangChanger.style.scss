@@ -1,0 +1,23 @@
+.LangChanger {
+  position: absolute;
+  max-width: 100px;
+  bottom: 15vh;
+  right: 5vw;
+  border: 2px solid var(--night-rider);
+  border-radius: 5px;
+}
+
+.LangChanger__button {
+  width: 100%;
+  padding: 5px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  background-color: var(--tea-green);
+  color: var(--night-rider);
+  border: none;
+}
+
+.LangChanger__button_active {
+  background-color: #000;
+  color: #ffffff;
+}
