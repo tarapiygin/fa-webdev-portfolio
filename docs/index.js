@@ -56,7 +56,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \***********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/main.scss */ \"./src/styles/main.scss\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var react_dom_client__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-dom/client */ \"./node_modules/react-dom/client.js\");\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/dist/index.js\");\n/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-redux */ \"./node_modules/react-redux/dist/react-redux.mjs\");\n/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./App */ \"./src/App.jsx\");\n/* harmony import */ var _redux_config_store__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./redux/config/store */ \"./src/redux/config/store.js\");\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\n\n\n\n\n\n\n\n\nvar root = react_dom_client__WEBPACK_IMPORTED_MODULE_2__.createRoot(document.getElementById('root'));\nroot.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)((react__WEBPACK_IMPORTED_MODULE_1___default().StrictMode), {\n  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.BrowserRouter, {\n    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(react_redux__WEBPACK_IMPORTED_MODULE_7__.Provider, {\n      store: _redux_config_store__WEBPACK_IMPORTED_MODULE_4__[\"default\"],\n      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_App__WEBPACK_IMPORTED_MODULE_3__[\"default\"], {})\n    })\n  })\n}));\n\n//# sourceURL=webpack://portfolio/./src/index.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/main.scss */ \"./src/styles/main.scss\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var react_dom_client__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-dom/client */ \"./node_modules/react-dom/client.js\");\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/dist/index.js\");\n/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react-redux */ \"./node_modules/react-redux/dist/react-redux.mjs\");\n/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./App */ \"./src/App.jsx\");\n/* harmony import */ var _redux_config_store__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./redux/config/store */ \"./src/redux/config/store.js\");\n/* harmony import */ var _asset_favicon_64_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./asset/favicon-64.png */ \"./src/asset/favicon-64.png\");\n/* harmony import */ var _asset_favicon_128_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./asset/favicon-128.png */ \"./src/asset/favicon-128.png\");\n/* harmony import */ var _asset_favicon_250_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./asset/favicon-250.png */ \"./src/asset/favicon-250.png\");\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\n\n\n\n\n\n\n\n\n\n\n\nvar root = react_dom_client__WEBPACK_IMPORTED_MODULE_2__.createRoot(document.getElementById('root'));\nroot.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)((react__WEBPACK_IMPORTED_MODULE_1___default().StrictMode), {\n  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_9__.BrowserRouter, {\n    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(react_redux__WEBPACK_IMPORTED_MODULE_10__.Provider, {\n      store: _redux_config_store__WEBPACK_IMPORTED_MODULE_4__[\"default\"],\n      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_App__WEBPACK_IMPORTED_MODULE_3__[\"default\"], {})\n    })\n  })\n}));\n\n//# sourceURL=webpack://portfolio/./src/index.jsx?");
 
 /***/ }),
 
@@ -427,6 +427,36 @@ eval("\n\nif (false) {} else {\n  module.exports = __webpack_require__(/*! ./cjs
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"42a14c26e1498cea22a5.png\";\n\n//# sourceURL=webpack://portfolio/./src/asset/email.png?");
+
+/***/ }),
+
+/***/ "./src/asset/favicon-128.png":
+/*!***********************************!*\
+  !*** ./src/asset/favicon-128.png ***!
+  \***********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"62fd1a40fdbf98899b77.png\";\n\n//# sourceURL=webpack://portfolio/./src/asset/favicon-128.png?");
+
+/***/ }),
+
+/***/ "./src/asset/favicon-250.png":
+/*!***********************************!*\
+  !*** ./src/asset/favicon-250.png ***!
+  \***********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"3c31f9260fc29cdda60f.png\";\n\n//# sourceURL=webpack://portfolio/./src/asset/favicon-250.png?");
+
+/***/ }),
+
+/***/ "./src/asset/favicon-64.png":
+/*!**********************************!*\
+  !*** ./src/asset/favicon-64.png ***!
+  \**********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"7ffe73938ffdfe2cca75.png\";\n\n//# sourceURL=webpack://portfolio/./src/asset/favicon-64.png?");
 
 /***/ }),
 

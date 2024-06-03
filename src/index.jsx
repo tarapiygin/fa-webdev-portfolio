@@ -5,6 +5,9 @@ import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import App from './App';
 import store from './redux/config/store';
+import './asset/favicon-64.png';
+import './asset/favicon-128.png';
+import './asset/favicon-250.png';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

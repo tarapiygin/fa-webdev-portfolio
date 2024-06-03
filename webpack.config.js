@@ -52,6 +52,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, 'public', 'index.html'),
+      favicon: './src/asset/favicon-128.png',
     }),
     // new BundleAnalyzerPlugin(),
   ],
