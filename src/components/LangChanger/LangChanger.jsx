@@ -15,11 +15,11 @@ export default function LangChanger() {
 
   const handleLanguageChange = (newLang) => {
     setActiveButton(newLang);
-    let newPath = `/${newLang}/`;
+    let newPath = `/fa-webdev-portfolio/${newLang}/`;
     if (newLang === 'en') {
-      newPath = '/';
-    } else if (location.pathname === `/${lang}/`) {
-      newPath = location.pathname.replace(`/${lang}/`, `/${newLang}/`);
+      newPath = '/fa-webdev-portfolio/';
+    } else if (location.pathname === `/fa-webdev-portfolio/${lang}/`) {
+      newPath = location.pathname.replace(`/fa-webdev-portfolio/${lang}/`, `/${newLang}/`);
     }
     dispatch(setLanguage(newLang));
     navigate(newPath);

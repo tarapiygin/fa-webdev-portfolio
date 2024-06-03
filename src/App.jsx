@@ -7,10 +7,10 @@ export default function App() {
   return (
     <div>
       <Routes>
-        <Route exact path="/" element={<Navigation />}>
-          <Route path="/" element={<Index />} />
-          <Route path="/:lang/" element={<Index />} />
-          <Route path="/:lang/contact" element={<Contact />} />
+        <Route exact path="/fa-webdev-portfolio/" element={<Navigation />}>
+          <Route path="/fa-webdev-portfolio/" element={<Index />} />
+          <Route path="/fa-webdev-portfolio/:lang/" element={<Index />} />
+          <Route path="/fa-webdev-portfolio/:lang/contact" element={<Contact />} />
         </Route>
       </Routes>
     </div>

@@ -24,15 +24,21 @@ export default function Index() {
               </div>
 
               <div className="row d-flex justify-content-center justify-content-md-start">
-                <div className="col-4 col-md-3 d-flex justify-content-center justify-content-md-start"><img className="social-image" src={telegram} alt="" /></div>
-                <div className="col-4 col-md-3 d-flex justify-content-center justify-content-md-start"><img className="social-image" src={vkontakte} alt="" /></div>
-                <div className="col-4 col-md-3 d-flex justify-content-center justify-content-md-start"><img className="social-image" src={email} alt="" /></div>
+                <div className="col-4 col-md-3 d-flex justify-content-center justify-content-md-start">
+                  <a href="https://t.me/tarapiygin"><img className="social-image" src={telegram} alt="Телеграм" /></a>
+                </div>
+                <div className="col-4 col-md-3 d-flex justify-content-center justify-content-md-start">
+                  <a href="https://vk.com/tarapiygin"><img className="social-image" src={vkontakte} alt="Вконтакте" /></a>
+                </div>
+                <div className="col-4 col-md-3 d-flex justify-content-center justify-content-md-start">
+                  <a href="mailto:example@gmail.com"><img className="social-image" src={email} alt="эл. почта" /></a>
+                </div>
               </div>
             </div>
           </div>
           <div className="col-md-4 p-0 d-flex align-items-center justify-content-center justify-content-md-start mt-5">
             <div className="d-flex justify-content-center">
-              <img className="first-screen-image" src={myphoto} alt="" />
+              <img className="first-screen-image" src={myphoto} alt="Ну круто же?" />
             </div>
           </div>
           <div className="col-md-4 p-2 d-flex align-items-center align-items-md-start justify-content-center justify-content-md-end mt-5">

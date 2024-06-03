@@ -1,7 +1,7 @@
 // src/reducers/profileReducer.js
 import { SET_LANGUAGE } from '../actions/langActions';
 
-const initialState = 'ru';
+const initialState = 'en';
 
 // eslint-disable-next-line default-param-last
 const langReducer = (state = initialState, action) => {

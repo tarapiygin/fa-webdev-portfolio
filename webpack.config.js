@@ -7,7 +7,7 @@ module.exports = {
   mode: 'production',
   entry: path.resolve(__dirname, 'src/index.jsx'),
   output: {
-    path: path.resolve(__dirname, 'build'),
+    path: path.resolve(__dirname, 'docs'),
     filename: 'index.js',
     clean: true,
   },
